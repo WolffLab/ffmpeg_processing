@@ -7,10 +7,9 @@ This code assumes that you are running a device that has a nvidia graphics card.
 
 In the the setting.py file you should include:
 1. The path to where you have the ffmpeg executive file installed
-
 2. The path where original videos are installed
 3. The path where where you would like the processed videos to be saved 
-4. The path of the .mat file that contains the relavant info for processing the videos. ffmpeg for windows is included within the repo and you should not have to change its path if running on windows
+4. The path of the .mat file that contains the relavant info for processing the videos.
 
 The requirements.txt file contains all the necessary libraries you need to run the code smoothly.
 
