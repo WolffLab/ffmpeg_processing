@@ -7,25 +7,25 @@ This code assumes that you are running a device that has a nvidia graphics card.
 
 In the the setting.py file you should include:
 1. The path to where you have the ffmpeg executive file installed
-2. The path where where you would like the processed videos to be saved 
-3. The path of the .mat file that contains the relavant info for processing the videos. 
+2. The path where where you would like the processed videos to be saved
+3. The path of the .mat file that contains the relavant info for processing the videos.
 
 The requirements.txt file contains all the necessary libraries you need to run the code smoothly.
 
-# How to run: 
+# How to run:
 
-**1.** 
+**1.**
 Create a new virtual environment:
 ```
-python -m venv env_ffmpeg 
+python -m venv env_ffmpeg
 ```
 
-If you do not have the virtual environment tool you can install it using: 
+If you do not have the virtual environment tool you can install it using:
 ```
 python -m pip install virtualenv
 ```
 
-The acitivate the virtual environment: 
+The acitivate the virtual environment:
 ```
 .\env_ffmpeg\Scripts\activate
 ```
@@ -39,7 +39,7 @@ python -m pip install -r .\requirements.txt
 **3.**
 Edit the settings.py file to include the relavant paths
 
-**4.** 
+**4.**
 Run the code then sit back and relax
 ```
 python .\ffmpeg_process.py
